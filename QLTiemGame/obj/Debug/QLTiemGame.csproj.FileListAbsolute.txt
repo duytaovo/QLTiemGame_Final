@@ -1,0 +1,16 @@
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\bin\Debug\QLTiemGame.exe.config
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\bin\Debug\QLTiemGame.exe
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\bin\Debug\QLTiemGame.pdb
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.csproj.AssemblyReference.cache
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.csproj.SuggestedBindingRedirects.cache
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.Home.resources
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.Login.resources
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.Properties.Resources.resources
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.csproj.GenerateResource.cache
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.csproj.CoreCompileInputs.cache
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.exe
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.pdb
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.AddMember.resources
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.AddTimeMember.resources
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.CategoryManage.resources
+D:\Năm 3\Hệ qtcs dữ liệu\QLTiemGame\QLTiemGame\obj\Debug\QLTiemGame.Option.resources

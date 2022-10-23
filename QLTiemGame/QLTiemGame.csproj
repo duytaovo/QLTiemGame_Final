@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79918FDD-B8AE-47E1-9930-D4647E5604A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLTiemGame</RootNamespace>
+    <AssemblyName>QLTiemGame</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMember.Designer.cs">
+      <DependentUpon>AddMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTimeMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTimeMember.Designer.cs">
+      <DependentUpon>AddTimeMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoryManage.Designer.cs">
+      <DependentUpon>CategoryManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Option.Designer.cs">
+      <DependentUpon>Option.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddMember.resx">
+      <DependentUpon>AddMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTimeMember.resx">
+      <DependentUpon>AddTimeMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryManage.resx">
+      <DependentUpon>CategoryManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Option.resx">
+      <DependentUpon>Option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\1392495957.png" />
+    <Content Include="Resources\13924959571.png" />
+    <Content Include="Resources\2015101183320.jpg" />
+    <Content Include="Resources\20151011833201.jpg" />
+    <Content Include="Resources\28-512.png" />
+    <Content Include="Resources\28-5121.png" />
+    <Content Include="Resources\512_icon.png" />
+    <Content Include="Resources\add-file.png" />
+    <Content Include="Resources\Add.png" />
+    <Content Include="Resources\add1.png" />
+    <Content Include="Resources\add11.png" />
+    <Content Include="Resources\Apply.png" />
+    <Content Include="Resources\app_type_catalog_512px_GREY.png" />
+    <Content Include="Resources\app_type_catalog_512px_GREY1.png" />
+    <None Include="Resources\background_login.jpg" />
+    <Content Include="Resources\blog.jpg" />
+    <Content Include="Resources\Calendar.png" />
+    <Content Include="Resources\Calendar1.png" />
+    <Content Include="Resources\Cancel.png" />
+    <Content Include="Resources\dangnhap.jpg" />
+    <Content Include="Resources\dangnhap1.jpg" />
+    <Content Include="Resources\delete-button-png-27.png" />
+    <Content Include="Resources\delete-button-png-271.png" />
+    <Content Include="Resources\Delete.png" />
+    <Content Include="Resources\Delete1.png" />
+    <Content Include="Resources\disc_256.png" />
+    <Content Include="Resources\doimk.png" />
+    <Content Include="Resources\doimk1.png" />
+    <Content Include="Resources\fast-food-icon-1.png" />
+    <Content Include="Resources\fast-food-icon-11.png" />
+    <Content Include="Resources\google-sites-icon-large.png" />
+    <Content Include="Resources\google-sites-icon-large1.png" />
+    <Content Include="Resources\Home.jpg" />
+    <Content Include="Resources\icon-seta1.png" />
+    <Content Include="Resources\internet-startup-icon.png" />
+    <Content Include="Resources\Key.png" />
+    <Content Include="Resources\máy tính.png" />
+    <Content Include="Resources\nhanvien.png" />
+    <Content Include="Resources\nhanvien1.png" />
+    <Content Include="Resources\order-icon-21627 %281%29.png" />
+    <Content Include="Resources\sa_three.jpg" />
+    <Content Include="Resources\search_b.png" />
+    <Content Include="Resources\Sync.png" />
+    <Content Include="Resources\systemcpl_dll_01_14.png" />
+    <Content Include="Resources\trangchu.png" />
+    <Content Include="Resources\Tune.png" />
+    <Content Include="Resources\uc_shikamaru-mj_hardware.png" />
+    <Content Include="Resources\Unlock.png" />
+    <Content Include="Resources\User group.png" />
+    <Content Include="Resources\user_cards-512.png" />
+    <Content Include="Resources\vector_285_14-01-512.png" />
+    <Content Include="Resources\View.png" />
+    <Content Include="Resources\wsecedit_dll_05_13.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
